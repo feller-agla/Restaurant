@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+.body {
+    background-color: #d9d9d9;
+}
+.en_tête {
+    font-size: 1.2em;
+    margin-top: 80px;
+    font-family: 'Bellota';
+    color: black;
+    display:flex;
+    margin-left: 150px;
+    align-items: center;
+}
+
+.en_tête nav {
+    margin-right: 100px;
+}
+
+.logo {
+    margin-right: 300px;
+}
+.bande1 {
+    position: absolute;
+    top: 0px;
+    height: 1100px;
+    z-index: -1;
+    left: 150px;
+}
+.commandez {
+    font-family: Bellota;
+    font-size: 1.1em;
+    font-weight: 700;
+    padding: 11px 31px;
+    margin-left: 350px;
+    border-color: transparent;
+    background-color: #fdb833;
+    border-radius: 10px;
+}
+.bod {
+    display: flex;
+    width: 1912px;
+}
+.welcome {
+    font-family: Berkshire Swash;
+    font-size: 6em;
+    font-weight: 300;
+    margin-top: 180px;
+    margin-bottom: 0.5px;
+}
+
+.texte {
+    position: absolute;
+    margin-right: 300px;
+    width: 600px;
+    margin-left: 150px;
+}
+
+.lorem1 {
+    font-family: 'Bellota';
+    font-size: 20px;
+    font-weight: 400;
+    margin:0;
+}
+
+.burger {
+    height: 800px;
+    margin-top: 150px;
+    margin-left: 750px;
+}
+
+.carre {
+    height: 81%;
+    width: 1000px;
+    background-color: #fdb833;
+    border-top-left-radius: 45%;
+    margin-bottom: 0px;
+    margin-top: 75px;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.com {
+    margin-top: 50px;
+    display: flex;
+}
+.now {
+    font-family: 'Bellota';
+    border-radius: 50px;
+    background-color: #fdb833;
+    padding: 10px 20px;
+    border-color: transparent;
+    font-size: 20px;
+}
+
+.table {
+    font-family: 'Bellota';
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 10px 25px;
+    border-color: #d61f1f;
+    border: black solid 1px;
+    margin-left: 20px;
+}
