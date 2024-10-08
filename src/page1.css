@@ -1,41 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .body {
     background-color: #d9d9d9;
 }
 .en_tête {
-    font-size: 1.2em;
-    margin-top: 80px;
+    margin: 0;
     font-family: 'Bellota';
-    color: black;
     display:flex;
-    margin-left: 150px;
+    left: 150px;
+    top: 66px;
+    position: fixed;
     align-items: center;
-}
 
-.en_tête nav {
-    margin-right: 100px;
+}
+.tete {
+    font-size: 18px;
+    width: 650px;
+    justify-content: space-between;
+    display:flex;
+    margin: 0;
+    position: relative;
+    left: 300px;
+    color: black;
 }
 
 .logo {
-    margin-right: 300px;
+    width: 135px;
+    height: 60px;
+    left: 10px;
+    top: 6px;
+    position: relative;
 }
 .bande1 {
     position: absolute;
     top: 0px;
-    height: 1100px;
+    height: 1000px;
     z-index: -1;
-    left: 150px;
+    left: 180px;
 }
 .commandez {
-    font-family: Bellota;
-    font-size: 1.1em;
+    font-family: Poppins;
+    color: #fff;
+    font-size: 18px;
     font-weight: 700;
-    padding: 11px 31px;
-    margin-left: 350px;
+    padding: 12px 20px;
+    left: 680px;
     border-color: transparent;
     background-color: #fdb833;
     border-radius: 10px;
+    margin: 0;
+    position: relative;
 }
 .bod {
     display: flex;
@@ -45,38 +60,45 @@
     font-family: Berkshire Swash;
     font-size: 6em;
     font-weight: 300;
-    margin-top: 180px;
-    margin-bottom: 0.5px;
+    position: relative;
+    top: 180px;
+    left: 10px;
+    bottom: 0.5px;
+    margin: 0;
 }
 
 .texte {
     position: absolute;
-    margin-right: 300px;
     width: 600px;
-    margin-left: 150px;
+    left: 161px;
+    top: -100px;
 }
 
 .lorem1 {
     font-family: 'Bellota';
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
+    left: 10px;
+    position: relative;
     margin:0;
 }
 
 .burger {
     height: 800px;
-    margin-top: 150px;
-    margin-left: 750px;
+    left: 760px;
+    top: 260px;
+    position: relative;
+    margin:0;
 }
 
 .carre {
-    height: 81%;
-    width: 1000px;
+    height: 801px;
+    width: 980px;
     background-color: #fdb833;
-    border-top-left-radius: 45%;
-    margin-bottom: 0px;
-    margin-top: 75px;
-    right: 0;
+    border-top-left-radius: 330px;
+    margin: 0;
+    left: 940px;
+    top: 205px;
     position: absolute;
     z-index: -1;
 }
@@ -85,7 +107,8 @@
     display: flex;
 }
 .now {
-    font-family: 'Bellota';
+    font-family: 'Poppins';
+    color: #fff;
     border-radius: 50px;
     background-color: #fdb833;
     padding: 10px 20px;
@@ -94,7 +117,7 @@
 }
 
 .table {
-    font-family: 'Bellota';
+    font-family: 'Poppins';
     border-radius: 50px;
     background-color: #ffffff;
     padding: 10px 25px;
